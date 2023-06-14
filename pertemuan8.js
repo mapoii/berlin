@@ -55,28 +55,28 @@
 
 // 2 Jenis Async
 // 1. Parallel
-// setTimeout(() => {
-//   console.log("proses 1");
-// }, 5000);
-// console.log("proses 2");
-// setTimeout(() => {
-//   console.log("proses 3");
-// }, 3000);
-// console.log("proses 4");
+setTimeout(() => {
+  console.log("proses 1");
+}, 5000);
+console.log("proses 2");
+setTimeout(() => {
+  console.log("proses 3");
+}, 3000);
+console.log("proses 4");
 
 // 2. Concurent
-// setTimeout(() => {
-//   console.log("Proses 1");
-//   setTimeout(() => {
-//     console.log("Proses 2");
-//     setTimeout(() => {
-//       console.log("Proses 3");
-//       setTimeout(() => {
-//         console.log("Proses 4");
-//       }, 3000);
-//     }, 3000);
-//   }, 3000);
-// }, 3000);
+setTimeout(() => {
+  console.log("Proses 1");
+  setTimeout(() => {
+    console.log("Proses 2");
+    setTimeout(() => {
+      console.log("Proses 3");
+      setTimeout(() => {
+        console.log("Proses 4");
+      }, 3000);
+    }, 3000);
+  }, 3000);
+}, 3000);
 
 //Promise
 let condition = true;
