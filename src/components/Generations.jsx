@@ -3,7 +3,7 @@ import React from 'react';
 const Generations = () => {
   return (
     <div>
-      <h3>Generations Komponen</h3>
+      <h3>Generation Komponen</h3>
       <ul>
         <li>Generation 1</li>
         <li>Generation 2</li>
