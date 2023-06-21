@@ -1,15 +1,17 @@
 import React from 'react';
+import Gen1 from './Gen1';
+import Gen2 from './Gen2';
+import Gen3 from './Gen3';
+import Gen4 from './Gen4';
 
 const Generations = () => {
   return (
     <div>
       <h3>Generation Komponen</h3>
-      <ul>
-        <li>Generation 1</li>
-        <li>Generation 2</li>
-        <li>Generation 3</li>
-        <li>Generation 4</li>
-      </ul>
+      <Gen1/>
+      <Gen2/>
+      <Gen3/>
+      <Gen4/>
     </div>
   );
 }
